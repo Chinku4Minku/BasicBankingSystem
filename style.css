@@ -1,0 +1,240 @@
+/* All bsics css codes are placed here */
+
+
+header{
+    background-color: black;
+    color:white;
+    font-size:x-large;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman';
+    margin-top: -1vh;
+    padding:10px;
+    border-bottom: 5px solid red;
+}
+a{
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.icon{
+    float: left;
+    margin: -9px;
+    border:2px solid red;
+}
+
+.center{
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+
+.container{
+    height: 90vh;
+    width: 100%;
+    background-image: url(./img/bank.png);
+    background-repeat: no-repeat;
+    background-position-x:center;
+    margin-top: -4vh;
+}
+
+.container-center{
+    height: auto;
+    width: 30%;
+    background-color:hsla(60, 8%, 12%, 0.658);
+    border: 0.5px solid red;
+    margin-top:22%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-transfer-money{
+    background-color: rgba(180, 118, 238, 0.377);
+    height:auto;
+    width: 70vw;
+    margin: auto;
+    margin-top:5vh;
+    text-align:center;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+}
+
+.select{
+    padding: 10px;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+.select:focus{
+    background-color:whitesmoke;
+}
+
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 0);
+    background-color: rgba(180, 118, 238, 0.377);
+    background-position-x:center;
+    text-align: center;
+    word-wrap: break-word;
+}
+.btn{
+    background-color:silver;
+    color:black;
+    border: 1px solid rgba(141, 19, 223, 0.966);
+    font-weight:bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: auto;
+    padding:auto;
+    margin: auto;
+    border-radius: 15%;
+    
+}
+
+
+.btn:hover {
+    background-color: rgba(141, 19, 223, 0.966);
+    color:yellow ;
+    border: 1px solid red;
+
+}
+
+.btnTransfer{
+    font-family:monospace;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:blueviolet;
+    color: white;
+    border-radius: 5px;   
+}
+.btnTransfer:hover{
+    background-color: red;
+    color: white;
+}
+.p1{
+    padding: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+table{
+    border: 1px solid red;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: -3vh;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+
+.m70{
+    width: 70%;
+}
+tr:nth-child(odd) {
+    background: rgb(236, 236, 236);
+    color:rgb(14, 2, 2);
+  }
+tr:nth-child(even) {
+    background: rgb(250, 234, 248);
+    color:black;
+  }
+tr{
+    width: 700px;
+}
+
+.table-row:hover{
+    background-color: rgba(137, 43, 226, 0.425);
+    color: white;
+}
+/* Media Queries*/
+/* Media Queries    @media (max-width: 480px)*/
+@media (max-width: 480px) {
+    .container {
+        background-image:url(./img/bank1.png);
+      background-color: black;
+    }
+
+    .container-center{
+        height: auto;
+        width: 80%;
+        background-color:hsla(60, 8%, 12%, 0.5);
+        border: 0.5px solid red;
+        margin-top:40vh;
+        margin-bottom:30vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;  
+        border-radius: 10px;
+  }
+}
+
+/* Media Queries    @media (min-width: 480px)*/
+@media (min-width: 480px) {
+   .container-center{
+        height: auto;
+        width: 50%;
+        background-color:hsla(60, 8%, 12%, 0.5);
+        border: 0.5px solid red;
+        margin-top:50vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+       border-radius: 10px;
+  }
+
+}
+
+/* Media Queries  @media (max-width: 480px) */
+@media (max-width: 480px) {
+    .container-transfer-money{
+        background-color: rgba(180, 118, 238, 0.377);
+        height:auto;
+        width: 100%;
+        margin: auto;
+        margin-top:5vh;
+        text-align:center;
+        color: black;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        border: 1px solid yellow;
+        border-left: 2px solid yellow;
+        border-right: 2px solid yellow;
+    }
+
+    .email{
+        word-break: break-all;
+    }
+  .heading{
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 0, 0);
+    background-color: rgba(180, 118, 238, 0.377);
+    background-position-x:center;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 3vh;
+  }
+    .p1{
+        padding:0px;
+        font-size: 15px;
+    }
+    
+    .icon{
+    float: left;
+    margin: -9px;
+    border:2px solid red;
+}
+}
+
+
