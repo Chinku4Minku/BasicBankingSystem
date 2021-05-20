@@ -1,8 +1,8 @@
 <?php
 
 $servername = 'localhost';
-$username = 'id16834493_chinku4minku_4432';
-$password='?BPTgGuVSN_Gj$r7';
+$username = 'root';
+$password='';
 $database ='id16834493_banking_system';
 
 // Connecting to the database
